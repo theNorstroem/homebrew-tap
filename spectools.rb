@@ -1,3 +1,6 @@
+# frozen_string_literal: false
+
+# Spectools
 class Spectools < Formula
   desc "Furo spectools utility toolkit around the furo specs"
   homepage "https://github.com/theNorstroem/spectools"
