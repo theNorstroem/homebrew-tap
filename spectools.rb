@@ -4,9 +4,7 @@ class Spectools < Formula
   url "https://github.com/theNorstroem/spectools/archive/v1.0.0.tar.gz"
   sha256 "effa9353213dd9adb228e687fa54a3e84f5af27ca0a67d07ee2ff3c39b9e6613"
   license "MIT"
-
   depends_on "go"
-
   def install
     ENV["GOPATH"] = buildpath
     ENV["GO111MODULE"] = "on"
