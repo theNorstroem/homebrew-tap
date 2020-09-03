@@ -1,9 +1,9 @@
 class Spectools < Formula
   desc "Furo spectools utility toolkit around the furo specs"
   homepage "https://github.com/theNorstroem/spectools"
-  url "https://github.com/theNorstroem/spectools/archive/v1.0.0-rc.3.tar.gz"
-  sha256 "b44eef4cf2e7af8c97543f8f95b126eb8668138996a001b3a4e0b5d11eaf05b1"
-  license ""
+  url "https://github.com/theNorstroem/spectools/archive/v1.0.0.tar.gz"
+  sha256 "effa9353213dd9adb228e687fa54a3e84f5af27ca0a67d07ee2ff3c39b9e6613"
+  license "MIT"
 
   depends_on "go"
 
