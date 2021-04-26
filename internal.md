@@ -3,8 +3,8 @@ Upgrade:
 - Download the package and build the checksum
 
 
-    wget https://github.com/theNorstroem/spectools/archive/v1.11.1.tar.gz
-    shasum -a 256 v1.11.1.tar.gz
+    wget https://github.com/theNorstroem/spectools/archive/v1.24.2.tar.gz
+    shasum -a 256 v1.24.2.tar.gz
 
 - Update the rb file with package and checksum
 
