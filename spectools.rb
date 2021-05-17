@@ -4,8 +4,8 @@
 class Spectools < Formula
   desc "Furo spectools utility toolkit around the furo specs"
   homepage "https://github.com/theNorstroem/spectools/blob/master/README.md"
-  url "https://github.com/theNorstroem/spectools/archive/v1.24.2.tar.gz"
-  sha256 "d55a80addc6470bdf8589d5d8e698550db733c50e0b937d94ea4bb365f00f12a"
+  url "https://github.com/theNorstroem/spectools/archive/v1.26.1.tar.gz"
+  sha256 "a80c31ff3d2bdd69f41870ed4dfaa6a3a5dd8dd4c6c927c0f076e22ceab5eacd"
   license "MIT"
   depends_on "go"
   def install
