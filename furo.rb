@@ -1,5 +1,4 @@
 # frozen_string_literal: false
-
 # Furo
 class Furo < Formula
   desc "Furo CLI"
