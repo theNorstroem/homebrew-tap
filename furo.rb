@@ -1,7 +1,7 @@
 # frozen_string_literal: false
 
-# Spectools
-class Spectools < Formula
+# Furo
+class Furo < Formula
   desc "Furo CLI"
   homepage "https://furo.pro"
   url "https://github.com/eclipse/eclipsefuro/archive/v1.27.0.tar.gz"
