@@ -12,8 +12,8 @@ class Furo < Formula
     ENV["GO111MODULE"] = "on"
     ENV["GOFLAGS"] = "-mod=vendor"
     ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
-    (buildpath/"src/github.com/eclipse/eclipsefuro").install buildpath.children
-    cd "src/github.com/eclipse/eclipsefuro" do
+    (buildpath/"src/github.com/eclipse/eclipsefuro/furo").install buildpath.children
+    cd "src/github.com/eclipse/eclipsefuro/furo" do
       system "go", "build", "-o", bin/"furo", "."
     end
   end
