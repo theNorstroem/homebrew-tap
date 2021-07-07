@@ -14,6 +14,9 @@ class Furo < Formula
     ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
     (buildpath/"src/github.com/eclipse/eclipsefuro/furo").install buildpath.children
     cd "src/github.com/eclipse/eclipsefuro/furo" do
+      system "ls"
+    end
+    cd "src/github.com/eclipse/eclipsefuro/furo" do
       system "go", "build", "-o", bin/"furo", "."
     end
   end
