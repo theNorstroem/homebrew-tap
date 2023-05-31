@@ -3,8 +3,8 @@
 class Furo < Formula
   desc "Furo CLI"
   homepage "https://furo.pro"
-  url "https://github.com/eclipse/eclipsefuro/archive/v1.37.0.tar.gz"
-  sha256 "7381d8abfa2d2c1f292f581942328793bea2e8bfbd962b19f8341fb471612db9"
+  url "https://github.com/eclipse/eclipsefuro/archive/v1.38.0.tar.gz"
+  sha256 "ffe199028a0a8bc1baf3a3824e00b97b4a5e8815a0828d1c97fbe033e5f18322"
   license "MIT"
   depends_on "go"
   def install
